@@ -1,4 +1,4 @@
 interface:
   display_name: "画图skill"
   short_description: "所有画图任务必须用 draw.io，生成清晰、可编辑、少交叉的图。"
-  default_prompt: "生成或修改流程图、E-R 图、架构图、UML 图、论文图或任何图表时，必须使用画图skill，最终输出 draw.io 可编辑图源并确保线条清晰、尽量不交叉。"
+  default_prompt: "生成或修改流程图、E-R 图、架构图、UML/类图、时序图、论文结构图或示意图时，必须使用画图skill，最终输出 draw.io 可编辑图源，导出 PNG/SVG 并完成视觉检查。不要把数据图表、截图、照片、图标、logo 或纯视觉设计强行纳入此skill。"
